@@ -1,0 +1,5 @@
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.controller.MainSceneController">
+    <center>
+        <ListView fx:id="movieListView" onMouseClicked="#onMovieClicked"/>
+    </center>
+</BorderPane>

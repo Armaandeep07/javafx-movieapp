@@ -1,0 +1,9 @@
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.controller.DetailSceneController"
+      spacing="10" padding="10">
+    <ImageView fx:id="posterView" fitWidth="200" preserveRatio="true"/>
+    <Label fx:id="titleLabel"/>
+    <Label fx:id="yearLabel"/>
+    <Label fx:id="directorLabel"/>
+    <Label fx:id="plotLabel" wrapText="true"/>
+    <Button text="Back" onAction="#onBackClicked"/>
+</VBox>
